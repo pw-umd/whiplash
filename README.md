@@ -1,5 +1,5 @@
 # whiplash
-This folder includes R programming code for the papers "Increasing population exposure to hydroclimate whiplash in the contiguous United States" and "Mortality risk and burden associated with hydroclimate whiplash in the United States"
+This folder includes R programming code for the papers "Increasing population exposure to hydroclimate whiplash in the contiguous United States" and "Mortality risk and burden associated with hydroclimate whiplash in the United States."
 
 Monthly standardized precipitation evapotranspiration index at a resolution of 0.05° (~5 km × 5 km) during 1895–2024 is publicly available from the National Oceanic and Atmospheric Administration's National Centers for Environmental Information at https://www.drought.gov/data-maps-tools/us-gridded-standardized-precipitation-index-spei-nclimgrid-monthly. 
 
