@@ -1,14 +1,10 @@
-library(dplyr);library(dlnm);library(gnm);library(splines);library(mixmeta);library(trend)
+library(dplyr);library(dlnm);library(splines);library(mixmeta);library(trend)
 
 setwd("E:/OneDrive - University of Maryland/Research/Climate whiplash/")
 
-data <- readRDS("G:/Whiplash US/data/data.final.rds")
-# data <- readRDS("data/data.final.2ndmo.rds")
+data <- readRDS("data/data.final.rds")
 
 # main analysis 
-# define the strata
-# data <- data %>%
-#   mutate(stratum = factor(paste(GEOID, year, sep=":")))
 data.main <- data %>%
   group_by(GEOID) %>%
   filter(sum(total) > 0) %>%
